@@ -1,0 +1,112 @@
+====================================================
+MULTI-BRANCH BANKING MANAGEMENT SYSTEM (C++)
+====================================================
+
+STUDENT PROJECT DESCRIPTION:
+This is a console-based Banking Management System developed in C++ using Object-Oriented Programming (OOP), file handling, and structured programming concepts. The system simulates real-world banking operations for multiple branches, customers, and bank tellers.
+
+====================================================
+HOW TO COMPILE AND RUN
+====================================================
+
+Option 1 (G++ Compiler - Recommended):
+1. Open terminal or command prompt
+2. Navigate to project folder
+3. Compile using:
+
+   g++ main.cpp -o bank
+
+4. Run the program:
+
+   ./bank   (Linux/Mac)
+   bank.exe (Windows)
+
+Option 2 (Online Compiler):
+- Paste main.cpp into OnlineGDB or similar C++ compiler
+- Click "Run"
+
+====================================================
+DEFAULT SYSTEM FLOW
+====================================================
+
+1. Start Program
+2. Choose from Main Menu:
+   - Create Account (Teller Function)
+   - Customer Login
+   - View Reports
+   - Exit
+
+====================================================
+FEATURES IMPLEMENTED
+====================================================
+
+✔ Bank Teller Authentication (simulated)
+✔ Customer Account Creation
+✔ Auto-generated Account Numbers
+✔ 5-digit PIN generation and encryption
+✔ Customer Login with PIN verification
+✔ Login attempt limiting (security feature)
+✔ Deposit and Withdrawal transactions
+✔ Balance inquiry
+✔ Transaction logging system
+✔ Multi-branch support structure
+✔ Basic reporting system
+✔ File handling using .dat files
+✔ Object-Oriented Programming (Inheritance used)
+
+====================================================
+ACCOUNT TYPES (OOP INHERITANCE)
+====================================================
+
+The system supports multiple account types:
+
+- Savings Account
+- Cheque Account
+- Fixed Deposit Account
+- Student Account
+
+(All derived from a base Account class)
+
+====================================================
+FILE STRUCTURE
+====================================================
+
+The system uses the following files:
+
+- main.cpp              → Main program source code
+- customers.dat         → Stores customer account data
+- transactions.dat      → Stores transaction history
+- system_config.txt     → System configuration (optional)
+- README.txt            → Project documentation
+
+====================================================
+SECURITY FEATURES
+====================================================
+
+✔ PIN encryption using simple character shifting
+✔ Maximum 3 login attempts before lockout
+✔ Basic authentication system for customers
+✔ Controlled access to account functions
+
+====================================================
+NOTES FOR DEMONSTRATION
+====================================================
+
+- PIN is shown only once during account creation
+- Users must remember their account number and PIN
+- All transactions update balance immediately
+- Data is stored in files for persistence
+
+====================================================
+DEVELOPER NOTES
+====================================================
+
+This project was developed as an academic assignment to demonstrate:
+- Object-Oriented Programming principles
+- File handling in C++
+- Real-world banking system simulation
+- Structured programming and modular design
+
+====================================================
+END OF FILE
+====================================================
